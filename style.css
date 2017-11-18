@@ -1,0 +1,161 @@
+/* Variabes */
+/* Mixin's */
+body {
+    background: #c1d72e;
+    color: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+    height: 100%;
+    text-align: center;
+}
+
+.wrappper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrappper:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+canvas {
+    border: #fff dashed 2px;
+    color: #fff;
+    padding: 15px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+#alphabet {
+    margin: 15px auto;
+    max-width: 900px;
+    padding: 0;
+}
+
+#alphabet:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#alphabet li {
+    background: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #c1d72e;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    list-style: none;
+    margin: 0 10px 10px 0;
+    padding-top: 10px;
+    width: 35px;
+    -khtml-border-radius: 5px;
+}
+
+#alphabet li:hover {
+    background: #c1d72e;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+#my-word {
+    display: block;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#my-word li {
+    display: inline-block;
+    font-size: 1.6em;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+.active {
+    cursor: default;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.active:hover {
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#mylives {
+    display: block;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+button {
+    background: #c1d72e;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 10px;
+    outline: none;
+    padding: 18px 10px;
+    text-decoration: none;
+    width: 180px;
+    -khtml-border-radius: 5px;
+}
+
+button:hover {
+    background: #fff;
+    border: solid 1px #fff;
+    color: #c1d72e;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    #alphabet {
+        padding: 0 0 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #alphabet {
+        padding: 0 0 0 25px;
+    }
+}
